@@ -19,9 +19,11 @@
         </nav>
     </header>
     <main>
-        <section id="latest-news">
-            <h2>Latest SDG News</h2>
-            <div id="news-container"></div>
+        <section id="news">
+            <h2>Latest Sustainable development Goals News</h2>
+            <div id="news-container" class="grid-container">
+                <!-- News articles will be inserted here by JavaScript -->
+            </div>
         </section>
     </main>
     <footer>
@@ -33,14 +35,9 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button id="to-top-btn"><img src="imges/Top_Arrow.svg.png" alt="" id="footer-button"></button>
         <p>&copy; 2024 Frontline Coders</p>
     </footer>
+    <button id="to-top-btn"><img src="imges/Top_Arrow.svg.png" alt="Go to Top" id="footer-button"></button>
     <script src="js/scripts.js"></script>
-    <script>
-        document.getElementById('to-top-btn').addEventListener('click', function() {
-            window.scrollTo({top: 0, behavior: 'smooth'});
-        });
-    </script>
 </body>
 </html>
